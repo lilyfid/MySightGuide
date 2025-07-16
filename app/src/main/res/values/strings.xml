@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MySightGuide</string>
+
+    <!-- Status Messages -->
+    <string name="status_listening">Listening...</string>
+    <string name="status_ready">Ready. Tap screen or say a command.</string>
+    <string name="status_capturing">Capturing...</string>
+    <string name="status_speaking">Speaking result...</string>
+
+    <!-- Voice Command Responses -->
+    <string name="prompt_scene_description">Scene description active. Tap the screen to describe.</string>
+    <string name="prompt_text_reader">Text reader active. Tap the screen to read.</string>
+    <string name="prompt_object_detection">Object detection ready. Point at objects and tap or say "now".</string>
+    <string name="prompt_choose_mode">Please choose a mode first.</string>
+    <string name="response_analysis_stopped">Analysis stopped.</string>
+    <string name="response_shutdown">Shutting down. Goodbye.</string>
+    <string name="response_unknown_command">Sorry, I didn\'t understand.</string>
+    <string name="response_no_objects_found">I don\'t see any recognizable objects.</string>
+    <string name="response_no_text_found">I could not find any text to read.</string>
+
+    <!-- Error Messages -->
+    <string name="error_camera_permission">Camera permission is required.</string>
+    <string name="error_mic_permission">Microphone permission is required.</string>
+    <string name="error_speech_recognition_na">Speech recognition is not available on this device.</string>
+    <string name="error_object_detector_load">Failed to load object detector.</string>
+    <string name="error_with_message">Error: %1$s</string>
+
+</resources>
