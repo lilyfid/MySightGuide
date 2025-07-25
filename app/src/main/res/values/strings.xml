@@ -3,26 +3,46 @@
 
     <!-- Status Messages -->
     <string name="status_listening">Listening...</string>
-    <string name="status_ready">Ready. Tap screen or say a command.</string>
+    <string name="status_ready">Ready. Say a command.</string>
     <string name="status_capturing">Capturing...</string>
     <string name="status_speaking">Speaking result...</string>
+    <string name="status_thinking">Thinking...</string>
 
-    <!-- Voice Command Responses -->
-    <string name="prompt_scene_description">Scene description active. Tap the screen to describe.</string>
+
+    <!-- Voice Command Prompts & Responses -->
+    <string name="prompt_scene_description">Scene description ready. Tap the screen or say "now" to describe.</string>
+    <string name="prompt_object_detection">Object and color detection ready. Point at objects and tap or say "now".</string>
     <string name="prompt_text_reader">Text reader active. Tap the screen to read.</string>
-    <string name="prompt_object_detection">Object detection ready. Point at objects and tap or say "now".</string>
-    <string name="prompt_choose_mode">Please choose a mode first.</string>
+    <string name="prompt_text_reader_detailed">Text reader ready. For a full page, hold your phone further back until the entire page is in view, then tap the screen to capture.</string>
+    <string name="prompt_currency_detection">Currency detection ready. Place a single banknote in view and tap or say "now".</string>
+    <string name="prompt_choose_mode">Please choose a mode first, like "detect objects" or "read text".</string>
+    <string name="response_voice_command_failed_offline">Voice commands are not available offline on this device. The app is now in tap-only mode.</string>
+    <string name="prompt_tap_only_mode">Tap once to read text. Tap twice to detect objects and their color.</string>
+
     <string name="response_analysis_stopped">Analysis stopped.</string>
-    <string name="response_shutdown">Shutting down. Goodbye.</string>
-    <string name="response_unknown_command">Sorry, I didn\'t understand.</string>
+    <string name="response_shutdown">Closing app. Goodbye.</string>
+    <string name="response_unknown_command">Sorry, I didn\'t understand. Please try again.</string>
     <string name="response_no_objects_found">I don\'t see any recognizable objects.</string>
     <string name="response_no_text_found">I could not find any text to read.</string>
+    <string name="response_currency_requires_internet">Currency identification requires an internet connection. Please connect to Wi-Fi or mobile data.</string>
+    <string name="response_scene_described_follow_up">Scene described. You can now ask a follow-up question about the image.</string>
+    <string name="response_assistant_requires_internet">The assistant feature requires an internet connection to answer general questions.</string>
+
+    <!-- *** UPDATED HELP AND ONBOARDING MESSAGES *** -->
+    <string name="response_help">You can say things like: describe the scene, detect objects, read text, or identify currency. You can also ask me any general question. To exit, just say close app.</string>
+    <string name="welcome_onboarding">Welcome to My Sight Guide, your personal assistant for seeing the world. You can ask me to describe a scene, read text, or identify objects and currency. You can also ask me any general question, like "what is the news today?". If you ever forget the commands, just say "help". You can say "close app" at any time to exit. Now, what would you like to do first?</string>
+
+    <!-- Personalization Strings -->
+    <string name="prompt_ask_for_name">To personalize your experience, please tell me your name after the tone.</string>
+    <string name="response_name_saved">Thank you, %1$s. It\'s a pleasure to meet you. Now, what would you like to do first?</string>
+    <string name="welcome_back">Welcome back, %1$s. How can I help you today?</string>
 
     <!-- Error Messages -->
-    <string name="error_camera_permission">Camera permission is required.</string>
-    <string name="error_mic_permission">Microphone permission is required.</string>
+    <string name="error_camera_permission">Camera permission is required for this app to work.</string>
+    <string name="error_mic_permission">Microphone permission is required for voice commands.</string>
     <string name="error_speech_recognition_na">Speech recognition is not available on this device.</string>
-    <string name="error_object_detector_load">Failed to load object detector.</string>
+    <string name="error_object_detector_load">Failed to load the object detector model.</string>
+    <string name="error_object_detector_not_ready">The object detection feature is not available right now. Please try another command.</string>
     <string name="error_with_message">Error: %1$s</string>
 
 </resources>
