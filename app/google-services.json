@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "698445253491",
+    "project_id": "mysightguide",
+    "storage_bucket": "mysightguide.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698445253491:android:81496d3ecad90a50e0d306",
+        "android_client_info": {
+          "package_name": "com.lilianaisuan.mysightguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiqy78w3YPpVUoo06l-sqAUDiJa1AwP4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
